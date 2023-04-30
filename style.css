@@ -1,0 +1,160 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    background-image: url(pattern.png);
+    background-size: cover;
+    color: #191c1e;
+}
+
+
+.container {
+    width: 960px;
+    margin: 80px auto;
+    background-color: #8093a0;
+    position: relative;
+}
+
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    height: 40px;
+    background-color:lightskyblue ;
+    z-index: 999;
+}
+
+.sosmed {
+    width: 256px;
+    height: 256px;
+    background-image: url(twitter\ 2.png);
+    display: inline-block;
+    position: absolute;
+    left: 76.9%;
+    top: -2.5%;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+ul {
+    margin: 10px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0px 10px 0 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #fbfcff;
+    padding: 10px;
+}
+
+li a:hover {
+    color: #191c1e;
+    background-color: #f0f8ff;
+}
+
+.hero {
+    height: 320px;
+    background-image: url(hero.jpeg);
+    background-size: cover;
+    background-position-y: -200px;
+    border-top: 5px solid peachpuff;
+    border-bottom: 5px solid plum;
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.main h2 {
+    margin: 0px;
+}
+
+.main .penulis {
+    margin: 0px;
+    font-size: 11px;
+}
+
+.main .penulis a {
+    text-decoration: none;
+    color: #fbfcff;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.main .penulis a:hover {
+    text-decoration: none;
+    color: #191c1e;
+}
+
+.main p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin: 0;
+}
+
+.sidebar p {
+    margin: 0;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.sidebar img {
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.footer {
+    background-color: #938cb2;
+    color: white;
+    padding: 10px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
