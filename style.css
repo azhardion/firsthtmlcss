@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f8ff;
-    background-image: url(pattern.png);
+    background-image: url(./assets/pattern.png);
     background-size: cover;
     color: #191c1e;
 }
@@ -29,7 +29,7 @@ body {
 .sosmed {
     width: 256px;
     height: 256px;
-    background-image: url(twitter\ 2.png);
+    background-image: url(./assets/twitter\ 2.png);
     display: inline-block;
     position: absolute;
     left: 76.9%;
@@ -64,7 +64,7 @@ li a:hover {
 
 .hero {
     height: 320px;
-    background-image: url(hero.jpeg);
+    background-image: url(./assets/hero.jpeg);
     background-size: cover;
     background-position-y: -200px;
     border-top: 5px solid peachpuff;
